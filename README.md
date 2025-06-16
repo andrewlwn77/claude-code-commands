@@ -61,6 +61,30 @@ Automatically integrate MCP servers with your project.
 - Adds custom workflows for your tech stack
 - Provides ready-to-use MCP commands
 
+### API Recording Commands
+
+#### `/record [action]`
+Manage API recording and replay for cost-effective development.
+- Actions: `start`, `stop`, `replay`, `bypass`, `status`, `list`, `delete`, `info`
+- Record API interactions to reusable cassettes
+- Replay recorded responses with zero API costs
+- Track cost savings automatically
+- Filter sensitive data from recordings
+
+#### `/record:install`
+Install a complete API recording infrastructure.
+- Auto-detects project language and framework
+- Installs appropriate recording libraries (vcr, nock, etc.)
+- Creates recording configuration and utilities
+- Sets up test integration and CI/CD support
+
+#### `/record:help [topic]`
+Get comprehensive help for the recording system.
+- Topics: `modes`, `commands`, `apis`, `troubleshooting`, `best-practices`
+- Context-aware guidance
+- Interactive examples
+- Configuration assistance
+
 ## 🛠️ Installation
 
 ### Quick Start
@@ -86,6 +110,9 @@ To install specific command sets in your existing project:
 
 # For MCP integration commands
 /mcp:install
+
+# For API recording commands
+/record:install
 ```
 
 ## 💡 Usage Examples
@@ -159,6 +186,33 @@ Instead of rigid commands, just talk to Claude naturally:
 # - Run browser tests: mcp__puppeteer__navigate
 ```
 
+### API Recording
+
+```bash
+# Start recording API interactions
+/record start feature-development
+
+# Make your API calls normally...
+# Then stop and save the recording
+/record stop
+
+# Later, replay without hitting real APIs
+/record replay feature-development
+
+# Check your cost savings
+/record status
+
+# Output:
+# 🎬 Recording Status
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Mode: replay (using recorded responses)
+# Active Cassette: feature-development
+# Cassette Size: 45 requests, 2.3MB
+# APIs Recorded: openai (12), stripe (8), aws (25)
+# Cost Saved: ~$4.50
+# Last Modified: 2 hours ago
+```
+
 ## 🌟 Features
 
 ### AI-Powered Intelligence
@@ -173,12 +227,21 @@ Instead of rigid commands, just talk to Claude naturally:
 - Get context-aware responses
 - Have intelligent conversations about your project
 
-### MCP Server Integration
+### MCP Server Integration (Examples)
+When you install MCP integration, you can connect to various development tools. Examples include:
 - **Docker Management**: Monitor and control containers
 - **Database Access**: Run queries directly from Claude
 - **Browser Testing**: Automate testing with Puppeteer
 - **AWS Tools**: Access CDK documentation and patterns
 - **IDE Features**: Get diagnostics and execute code
+- **And many more**: The MCP ecosystem is constantly growing with new integrations
+
+### API Recording & Replay
+- **Cost Optimization**: Save money by replaying recorded API responses
+- **Multiple Recording Modes**: Record, replay, bypass, or hybrid modes
+- **Automatic Filtering**: Remove sensitive data from recordings
+- **Speed & Reliability**: Instant responses without network delays
+- **Testing Support**: Consistent test data across environments
 
 ### Customizable and Extensible
 - Adapt commands to your project's needs
