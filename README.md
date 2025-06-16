@@ -1,5 +1,9 @@
 # Claude Code Commands
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andrewlwn77/claude-code-commands/main/assets/claude-code-commands.png" alt="Claude Code Commands Logo" width="600">
+</p>
+
 A curated collection of slash commands for [Claude Code](https://claude.ai/code) that enhance your development workflow with AI-powered project management and tool integrations.
 
 ## 🚀 Overview
