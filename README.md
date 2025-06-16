@@ -52,18 +52,18 @@ Get comprehensive guidance on using AI project management.
 ### MCP Integration Commands
 
 #### `/mcp:install`
-Install MCP (Model Context Protocol) integration commands.
-- Adds MCP commands to your project
+Set up MCP (Model Context Protocol) integration in your workflow.
+- Adds MCP command references to your project
 - Verifies MCP server availability
-- Updates CLAUDE.md with MCP references
-- Enables powerful development tools
+- Updates CLAUDE.md with MCP integration documentation
+- Enables access to existing MCP servers in your environment
 
 #### `/mcp:integrate`
-Automatically integrate MCP servers with your project.
+Automatically integrate existing MCP servers with your project workflow.
 - Analyzes project structure (Docker, databases, frameworks)
 - Generates project-specific MCP documentation
-- Adds custom workflows for your tech stack
-- Provides ready-to-use MCP commands
+- Creates custom workflows for your tech stack
+- Documents available MCP commands for your project
 
 ### API Recording Commands
 
@@ -112,7 +112,7 @@ To install specific command sets in your existing project:
 # For project management commands
 /project:install
 
-# For MCP integration commands
+# For MCP workflow integration
 /mcp:install
 
 # For API recording commands
@@ -232,7 +232,7 @@ Instead of rigid commands, just talk to Claude naturally:
 - Have intelligent conversations about your project
 
 ### MCP Server Integration (Examples)
-When you install MCP integration, you can connect to various development tools. Examples include:
+When you integrate MCP into your workflow, you can connect to various development tools through existing MCP servers. Examples include:
 - **Docker Management**: Monitor and control containers
 - **Database Access**: Run queries directly from Claude
 - **Browser Testing**: Automate testing with Puppeteer
@@ -308,4 +308,4 @@ These commands are designed to enhance the Claude Code experience and make AI-as
 
 ---
 
-**Ready to supercharge your Claude Code workflow?** Start with `/project:install` or `/mcp:install` to add these powerful commands to your project!
+**Ready to supercharge your Claude Code workflow?** Start with `/project:install` or `/mcp:install` to add these powerful commands and integrations to your project!
